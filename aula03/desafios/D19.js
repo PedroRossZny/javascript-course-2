@@ -1,4 +1,4 @@
-function Produto(nome, preco, percent) {
+function Produto(nome, preco) {
     this.nome = nome
     this.preco = preco
 }
