@@ -1,4 +1,4 @@
-import {adicionar} from "./functions/carrinho.js"
+import adicionar from "./functions/carrinho.js"
 import listarProdutos from "./functions/produtos.js"
 import cadastrarUsuario from "./functions/usuarios.js"
 
@@ -7,7 +7,7 @@ const produtos = {
     2: "Regata Preta",
     3: "Oversized Preta",
     4: "Manga Longa Preta",
-    5: "Moletom Preto",
+    5: "Moletom Preto"
 }
 
 const precos = {
