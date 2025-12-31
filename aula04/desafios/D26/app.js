@@ -1,4 +1,4 @@
-import {adicionar, retirar} from "./functions/carrinho.js"
+import {adicionar} from "./functions/carrinho.js"
 import listarProdutos from "./functions/produtos.js"
 import cadastrarUsuario from "./functions/usuarios.js"
 
@@ -18,12 +18,11 @@ const precos = {
     "Moletom Preto": 200
 }
 
-let carrinho = []
-let total = 0
-let usuario = false
-
-listarProdutos(produtos, precos, usuario)
 cadastrarUsuario("Pedro")
-usuario = true
-listarProdutos(produtos, precos, usuario)
-adicionar(1)
+listarProdutos(produtos, precos)
+const compras = {
+    1: 80,
+    2: 60
+}
+console.log('Comprando uma Camiseta Preta e uma Regata Preta.')
+adicionar(compras)
